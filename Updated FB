@@ -1,0 +1,21 @@
+// making use of console.log as a reporter in place of having alerts / prompts --MT
+
+var num = ""; 
+for (num = 1; num < 101; num++) { 
+ 
+if (num % 3 == 0 && num % 5 == 0) {
+    num = num + "";
+    console.log(num + ": fuzzbuzz");
+}
+else if (num % 3 == 0) { 
+   num = num + ""; 
+  console.log(num + ": fizz");
+}
+else if (num % 5 == 0) { 
+  num = num + ""; 
+  console.log(num + ": buzz");
+}
+else {
+console.log(num + ": I'm boring");
+}
+}
